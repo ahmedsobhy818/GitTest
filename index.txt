@@ -23,6 +23,11 @@ rerturn this.id;
 override ToString(){
 return this.id.tostring() + "-" + this.name;
 }
+
+void GotoHospital(hospital hos)
+{
+
+}
 }
 
 }
