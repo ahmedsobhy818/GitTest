@@ -19,6 +19,10 @@ console.log(this.name);
 int GetID(){
 rerturn this.id;
 }
+
+override ToString(){
+return this.id.tostring() + "-" + this.name;
+}
 }
 
 }
