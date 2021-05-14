@@ -1,11 +1,11 @@
-class Patient{
+public class Patient{ // make the class public
 
 PatientUOW= new PatientUOW();
 string name;
 int id;
 int age;
 
-void Patient ( int id ,string name){
+void Patient ( int id ,string name){ //constructorr
 this.id=id;
 this.name=name;
 PatientUOW.Add (this);
