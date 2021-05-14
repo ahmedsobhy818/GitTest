@@ -1,1 +1,9 @@
-hello
+class patient{
+
+void patient ( int id ,string name){
+this.id=id;
+this.name=name;
+PatientUOW.Add (this);
+}
+
+}
