@@ -1,8 +1,9 @@
-public class Patient{ //this is a comment
+class Patient{
 
 PatientUOW= new PatientUOW();
 string name;
 int id;
+int age;
 
 void Patient ( int id ,string name){
 this.id=id;
