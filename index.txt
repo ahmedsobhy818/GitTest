@@ -10,7 +10,11 @@ this.name=name;
 PatientUOW.Add (this);
 }
 
+
 void printName(){
 console.log(this.name);
 }
 }
+
+}
+
