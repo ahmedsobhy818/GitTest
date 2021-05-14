@@ -1,4 +1,4 @@
-class Patient{
+public class Patient{
 
 PatientUOW= new PatientUOW();
 string name;
