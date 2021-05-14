@@ -1,1 +1,16 @@
-hello
+class patient{
+
+PatientUOW= new PatientUOW();
+string name;
+int id;
+
+void patient ( int id ,string name){
+this.id=id;
+this.name=name;
+PatientUOW.Add (this);
+}
+
+void printName(){
+console.log(this.name);
+}
+}
